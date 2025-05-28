@@ -61,7 +61,7 @@ void loop() {
     display.print(temp, 1); // Un decimal
     display.print(" C");
     display.display();
-    if (temp > 37.5) {
+    if (temp > 31.5) {
       digitalWrite(ledRojo, HIGH);
       digitalWrite(ledVerde, LOW);
       tone(buzzer, 1000, 300); // Beep
